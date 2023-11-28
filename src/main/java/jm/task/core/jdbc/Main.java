@@ -15,7 +15,7 @@ public class Main {
         userService.saveUser("Винни", "Пух", (byte) 40);
         userService.saveUser("Крошка", "Енот", (byte) 44);
         userService.saveUser("Ослик", "Иа-Иа", (byte) 66);
-        userService.saveUser("Ёжик", "в тумане", (byte) 73);
+        userService.saveUser("Ёжик", "В тумане", (byte) 73);
 
 
 
