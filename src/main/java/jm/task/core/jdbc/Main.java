@@ -19,12 +19,14 @@ public class Main {
 
 
 
-        for (User user : userService.getAllUsers()) {
-            System.out.println("User с именем" + " " + user.getName()+ " " + "добавлен в базу данных");
-        }
+//        for (User user : userService.getAllUsers()) {
+//            System.out.println("User с именем" + " " + user.getName()+ " " + "добавлен в базу данных");
+//        }
 
         userService.cleanUsersTable();
         userService.dropUsersTable();
+
+
 
     }
 }
